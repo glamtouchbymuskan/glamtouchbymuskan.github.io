@@ -1,114 +1,119 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Glamtouch by Muskan | Professional Makeup Artist</title>
-<meta name="description" content="Glamtouch by Muskan — bridal, party, HD makeup and hair styling at your venue in Hasimara and nearby areas.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#111111">
+<meta name="description" content="Glamtouch by Muskan — professional makeup, beauty and hair services at your venue in Hasimara and nearby areas.">
+<title>Glamtouch by Muskan | Makeup & Beauty Services</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--pink:#d62f70;--rose:#f7dce8;--ink:#241922;--muted:#6f6269;--cream:#fffaf7;--gold:#c99a52}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--cream)}
-a{text-decoration:none;color:inherit}.top{background:#241922;color:#fff;text-align:center;padding:9px 14px;font-size:14px}.nav{position:sticky;top:0;z-index:20;background:#fffdfd;border-bottom:1px solid #eee;padding:15px 6%;display:flex;align-items:center;justify-content:space-between}
-.brand{font-weight:900;font-size:22px}.brand span{color:var(--pink)}.navlinks a{margin-left:22px;font-weight:700;font-size:14px}
-.hero{padding:62px 7%;display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;background:radial-gradient(circle at 85% 10%,#fbe7ef,transparent 35%),linear-gradient(120deg,#fff,#fff7fa)}
-.kicker{color:var(--pink);font-weight:800;letter-spacing:2px;font-size:13px}.hero h1{font-family:Georgia,serif;font-size:58px;line-height:1.02;margin:15px 0}.hero h1 em{color:var(--pink);font-style:normal}.hero p{font-size:19px;line-height:1.7;color:var(--muted);max-width:620px}
-.btn{display:inline-block;background:var(--pink);color:#fff;padding:15px 23px;border-radius:999px;font-weight:800;margin:7px 8px 7px 0;box-shadow:0 10px 24px #d62f7030}.btn.dark{background:var(--ink)}.btn.outline{background:transparent;color:var(--pink);border:2px solid var(--pink);box-shadow:none}
-.heroimg{width:100%;border-radius:28px;box-shadow:0 25px 60px #2b162320}.badge{display:inline-block;background:#fff;padding:10px 14px;border-radius:999px;margin-top:15px;font-weight:700;box-shadow:0 8px 25px #00000010}
-.section{padding:78px 7%}.section h2{text-align:center;font-family:Georgia,serif;font-size:40px;margin:0 0 12px}.lead{text-align:center;color:var(--muted);max-width:720px;margin:0 auto 40px;line-height:1.7}
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{background:#fff;padding:30px;border-radius:22px;border:1px solid #f0e2e7;box-shadow:0 12px 35px #2419220a}.icon{font-size:30px}.card h3{margin:15px 0 8px;color:var(--pink)}.card p{color:var(--muted);line-height:1.6}
-.banner{background:var(--ink);color:#fff;padding:60px 7%;display:grid;grid-template-columns:1fr auto;gap:30px;align-items:center}.banner h2{font-family:Georgia,serif;font-size:38px;margin:0 0 10px}.banner p{color:#eadde4;line-height:1.6}
-.gallery{display:grid;grid-template-columns:1.2fr .8fr;gap:22px}.gallery img{width:100%;height:100%;max-height:560px;object-fit:cover;border-radius:24px}
-.booking{background:linear-gradient(135deg,#fff1f6,#fff)}.bookingbox{max-width:760px;margin:auto;background:#fff;padding:34px;border-radius:25px;box-shadow:0 18px 55px #24192212}.bookingbox label{display:block;font-weight:700;margin:15px 0 7px}.bookingbox input,.bookingbox textarea{width:100%;padding:14px;border:1px solid #e7d8df;border-radius:12px;font:inherit}.bookingbox textarea{min-height:110px}
-footer{background:#171116;color:#ddd;text-align:center;padding:30px 7%;line-height:1.7}footer strong{color:#fff}
-@media(max-width:850px){.hero,.banner,.gallery{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.hero h1{font-size:44px}.nav{gap:10px;flex-direction:column}.navlinks a{margin:0 7px;font-size:13px}}
+:root{--pink:#e95c98;--deep:#151116;--cream:#fff8fb;--gold:#cda45c;--muted:#6f6870;--card:#fff;--line:#f0dbe5}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:"DM Sans",sans-serif;color:var(--deep);background:var(--cream);line-height:1.6}
+a{text-decoration:none;color:inherit}.container{width:min(1120px,92%);margin:auto}
+.topbar{background:#111;color:#fff;text-align:center;padding:9px 12px;font-size:13px}.topbar b{color:#ff9bc5}
+nav{position:sticky;top:0;z-index:20;background:rgba(255,248,251,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.navin{height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.logo{font-family:"Playfair Display",serif;font-size:23px;font-weight:700}.logo span{display:block;color:var(--pink);font-family:"DM Sans";font-size:11px;letter-spacing:2px;text-transform:uppercase}
+.links{display:flex;gap:22px;font-size:14px;font-weight:600}.links a:hover{color:var(--pink)}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 20px;border-radius:999px;font-weight:700;border:1px solid transparent;transition:.2s}.btn-primary{background:var(--pink);color:#fff}.btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 25px #e95c9830}.btn-dark{background:#151116;color:#fff}.btn-outline{border-color:#ddd;background:#fff}
+.hero{padding:46px 0 34px}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:38px;align-items:center}.eyebrow{color:var(--pink);font-weight:800;letter-spacing:3px;font-size:12px;text-transform:uppercase}.hero h1{font-family:"Playfair Display",serif;font-size:clamp(42px,6vw,72px);line-height:1.03;margin:14px 0}.hero h1 span{color:var(--pink)}.hero p{font-size:17px;color:var(--muted);max-width:590px}.chips{display:flex;flex-wrap:wrap;gap:9px;margin:20px 0}.chip{padding:8px 12px;background:#fff;border:1px solid var(--line);border-radius:999px;font-size:13px;font-weight:600}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.hero-img{position:relative}.hero-img img{width:100%;height:560px;object-fit:cover;border-radius:28px;box-shadow:0 22px 55px #5c31431f}.badge{position:absolute;bottom:18px;left:18px;background:#111;color:#fff;border-radius:18px;padding:13px 16px;font-size:13px}.badge strong{color:#ff9bc5}
+section{padding:70px 0}.section-head{text-align:center;margin-bottom:32px}.section-head .eyebrow{margin-bottom:7px}.section-head h2{font-family:"Playfair Display";font-size:38px;margin:0 0 8px}.section-head p{color:var(--muted);max-width:650px;margin:auto}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:23px;box-shadow:0 8px 25px #5c31430b}.card h3{margin:0 0 7px;font-family:"Playfair Display";font-size:23px}.card p{color:var(--muted);font-size:14px;margin:0 0 14px}.price{font-size:22px;font-weight:800;color:var(--pink)}.small{font-size:12px;color:#8a8188}
+.price-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.price-card{background:#fff;border:1px solid var(--line);border-radius:24px;padding:24px}.price-card h3{font-family:"Playfair Display";font-size:25px;margin:0 0 15px}.row{display:flex;justify-content:space-between;gap:15px;padding:12px 0;border-bottom:1px dashed #ead8e0}.row:last-child{border-bottom:0}.row span:first-child{font-weight:600}.row span:last-child{font-weight:800;color:var(--pink);white-space:nowrap}
+.note{margin-top:18px;background:#fff0f6;border:1px solid #f4cadb;border-radius:18px;padding:15px;color:#654b58;font-size:13px}
+.feature{display:grid;grid-template-columns:.95fr 1.05fr;gap:36px;align-items:center}.feature img{width:100%;border-radius:26px;box-shadow:0 18px 50px #5c31431c}.list{display:grid;gap:13px;margin-top:20px}.list div{background:#fff;border:1px solid var(--line);padding:14px 16px;border-radius:15px}.list b{color:var(--pink)}
+.gallery{display:grid;grid-template-columns:1.15fr .85fr;gap:18px}.gallery img{width:100%;height:360px;object-fit:cover;border-radius:22px}.gallery img:first-child{height:430px}
+.booking{background:#151116;color:#fff;border-radius:30px;padding:42px}.booking-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}.booking h2{font-family:"Playfair Display";font-size:42px;margin:0 0 8px}.booking p{color:#d5ccd2}.contact-list{display:grid;gap:12px}.contact{background:#241d24;border:1px solid #3b3139;border-radius:16px;padding:15px}.contact b{color:#ff9bc5}
+footer{padding:30px 0 90px;text-align:center;color:#756d74;font-size:13px}.footer-brand{font-family:"Playfair Display";font-size:24px;color:#151116}
+.float{position:fixed;right:16px;bottom:16px;z-index:30;background:#25d366;color:#fff;padding:13px 17px;border-radius:999px;font-weight:800;box-shadow:0 12px 30px #0003}
+@media(max-width:800px){.links{display:none}.hero-grid,.feature,.booking-grid{grid-template-columns:1fr}.hero{padding-top:28px}.hero-img img{height:470px}.cards,.price-grid{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}.gallery img,.gallery img:first-child{height:320px}section{padding:52px 0}.booking h2{font-size:34px}}
 </style>
 </head>
 <body>
-<div class="top">📍 Hasimara & nearby areas • 📲 Home / Venue Makeup Service</div>
-<nav class="nav">
-  <div class="brand">Glamtouch <span>by Muskan</span></div>
-  <div class="navlinks"><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#booking">Booking</a></div>
-</nav>
+<div class="topbar">📍 Serving <b>Hasimara & nearby areas</b> • Beauty comes to you</div>
 
-<section class="hero">
+<nav><div class="container navin">
+  <a class="logo" href="#home">Glamtouch <span>by Muskan</span></a>
+  <div class="links"><a href="#services">Services</a><a href="#pricing">Pricing</a><a href="#about">About</a><a href="#gallery">Gallery</a><a href="#booking">Book</a></div>
+  <a class="btn btn-primary" href="https://wa.me/917865050476?text=Hello%20Glamtouch%20by%20Muskan%2C%20I%20want%20to%20book%20a%20service." target="_blank">WhatsApp</a>
+</div></nav>
+
+<main id="home">
+<section class="hero"><div class="container hero-grid">
   <div>
-    <div class="kicker">MAKEUP • BEAUTY • CONFIDENCE</div>
-    <h1>Beauty that <em>comes to you.</em></h1>
-    <p>Professional makeup by Muskan for weddings, parties and special occasions — delivered at your venue in Hasimara and nearby areas.</p>
-    <a class="btn" href="https://wa.me/917865050476">💬 Book on WhatsApp</a>
-    <a class="btn outline" href="https://www.instagram.com/glamtouch_by_muskan?stkn=dmJhMGEwNTh4cjQw" target="_blank">Instagram</a>
-    <div class="badge">✨ Bridal • Party • HD Makeup • Hair Styling</div>
+    <div class="eyebrow">Makeup • Beauty • Hair</div>
+    <h1>Beauty that <span>comes to you.</span></h1>
+    <p>Professional makeup, beauty care and hair services by <b>Glamtouch by Muskan</b> — available at your venue for weddings, parties, functions and special occasions.</p>
+    <div class="chips"><span class="chip">Bridal Makeup</span><span class="chip">Party Makeup</span><span class="chip">Facial & Clean Up</span><span class="chip">Hair Care</span></div>
+    <div class="actions"><a class="btn btn-primary" href="#pricing">View Pricing</a><a class="btn btn-outline" href="#booking">Book an Appointment</a></div>
   </div>
-  <img class="heroimg" src="muskan.jpg" alt="Muskan, founder of GlamTouch by Muskan">
-</section>
+  <div class="hero-img"><img src="muskan.jpg" alt="Muskan - Glamtouch by Muskan"><div class="badge">Professional on-site service<br><strong>Hasimara & nearby areas</strong></div></div>
+</div></section>
 
-<section class="section" id="services">
-  <h2>Services</h2>
-  <p class="lead">Makeup and beauty services for your most special moments, without needing to visit a studio.</p>
-  <div class="cards">
-    <div class="card"><div class="icon">👰</div><h3>Bridal Makeup</h3><p>Elegant, long-lasting bridal looks designed for your wedding day and photographs.</p></div>
-    <div class="card"><div class="icon">✨</div><h3>Party Makeup</h3><p>Glamorous looks for receptions, parties, birthdays and celebrations.</p></div>
-    <div class="card"><div class="icon">💄</div><p>Camera-ready finishing for special events and professional photography.</p></div>
-    <div class="card"><div class="icon">💇</div><h3>Hair Styling</h3><p>Event-ready styling to complete your overall look.</p></div>
-    <div class="card"><div class="icon">🧖‍♀️</div><h3>Facial & Cleanup</h3><p>Beauty care for fresh, clean and glowing-looking skin before your special occasion.</p></div>
-    <div class="card"><div class="icon">🧵</div><h3>Threading</h3><p>Eyebrow and facial threading for a neat, polished look.</p></div>
-    <div class="card"><div class="icon">✨</div></div>
-    <div class="card"><div class="icon">💅</div><p>Nail and hand/foot care to complete your beauty preparation.</p></div>
-    <div class="card"><div class="icon">🌸</div><h3>Saree Draping</h3><p>Elegant saree draping and finishing for weddings and special occasions.</p></div>
-    <div class="card"><div class="icon">🌷</div><h3>All Occasions</h3><p>Beauty services tailored to your outfit, event and personal style.</p></div>
-    <div class="card"><div class="icon">📍</div><h3>At Your Venue</h3><p>GlamTouch travels to your wedding, home or chosen event venue.</p></div>
+<section id="services"><div class="container">
+<div class="section-head"><div class="eyebrow">What we offer</div><h2>Our Services</h2><p>Choose makeup, skin care or hair services — or combine them for a complete event-ready look.</p></div>
+<div class="cards">
+  <div class="card"><h3>💄 Makeup</h3><p>Bridal, party, HD and pre-wedding makeup at your venue.</p><div class="price">From ₹1,200</div></div>
+  <div class="card"><h3>✨ Skin & Beauty</h3><p>Facial, clean up, D-Tan and threading for fresh glowing skin.</p><div class="price">From ₹30</div></div>
+  <div class="card"><h3>💇 Hair Services</h3><p>Hair spa, haircut, styling, straightening and keratin treatment.</p><div class="price">From ₹300+</div></div>
+</div></div></section>
+
+<section id="pricing"><div class="container">
+<div class="section-head"><div class="eyebrow">Simple & transparent</div><h2>Service Pricing</h2><p>Starting prices are shown below. Final quote may vary according to look, hair length, products, travel and event requirements.</p></div>
+<div class="price-grid">
+  <div class="price-card"><h3>💄 Makeup Services</h3>
+    <div class="row"><span>Bridal Makeup</span><span>₹5,000</span></div>
+    <div class="row"><span>Party Makeup</span><span>₹1,500</span></div>
+    <div class="row"><span>HD Makeup</span><span>₹2,500</span></div>
+    <div class="row"><span>Haldi / Mehendi Makeup</span><span>₹1,200</span></div>
+    <div class="row"><span>Hair Styling</span><span>₹500+</span></div>
   </div>
-</section>
-
-<section class="banner">
-  <div><h2>Beauty Comes to You ♡</h2><p>Based in Hasimara and serving nearby areas with professional on-site makeup services.</p></div>
-  <a class="btn" href="https://wa.me/917865050476">Check Availability</a>
-</section>
-
-<section class="section" id="gallery">
-  <h2>GlamTouch Gallery</h2>
-  <p class="lead">A glimpse of the GlamTouch professional makeup experience.</p>
-  <div class="gallery">
-    <img src="wedding-makeup.png" alt="GlamTouch by Muskan providing makeup at a wedding venue">
-    <img src="muskan.jpg" alt="Muskan, professional makeup artist">
+  <div class="price-card"><h3>🌸 Skin & Beauty</h3>
+    <div class="row"><span>Basic Facial</span><span>₹500</span></div>
+    <div class="row"><span>Clean Up</span><span>₹350</span></div>
+    <div class="row"><span>D-Tan</span><span>₹450</span></div>
+    <div class="row"><span>Threading – Eyebrow</span><span>₹50</span></div>
+    <div class="row"><span>Threading – Upper Lip</span><span>₹30</span></div>
+    <div class="row"><span>Threading – Full Face</span><span>₹150</span></div>
   </div>
-</section>
-
-<section class="section booking" id="booking">
-  <h2>Book Your Makeup</h2>
-  <p class="lead">Send your event details on WhatsApp and get in touch with Muskan.</p>
-  <div class="bookingbox">
-    <label>Your Name</label><input id="name" placeholder="Enter your name">
-    <label>Event Date</label><input id="date" type="date">
-    <label>Service</label><input id="service" placeholder="e.g. Bridal Makeup">
-    <label>Venue / Area</label><input id="venue" placeholder="e.g. Hasimara">
-    <label>Message</label><textarea id="msg" placeholder="Tell us about your event"></textarea>
-    <br><br><button class="btn" onclick="book()">Send Booking Request on WhatsApp</button>
+  <div class="price-card"><h3>💇 Hair Services</h3>
+    <div class="row"><span>Hair Spa</span><span>₹700+</span></div>
+    <div class="row"><span>Hair Cut</span><span>₹300+</span></div>
+    <div class="row"><span>Hair Straightening</span><span>₹2,500+</span></div>
+    <div class="row"><span>Keratin Treatment</span><span>₹3,000+</span></div>
+    <div class="row"><span>Hair Styling</span><span>₹500+</span></div>
   </div>
-</section>
+  <div class="price-card"><h3>👑 Bridal Booking</h3>
+    <p>Customized bridal packages are available with makeup, hair styling and additional beauty services.</p>
+    <div class="price">₹5,000+</div>
+    <p class="small">Share your date, venue and requirements for the final quote.</p>
+    <a class="btn btn-primary" href="https://wa.me/917865050476?text=Hello%20Glamtouch%20by%20Muskan%2C%20I%20want%20a%20bridal%20package%20quote." target="_blank">Get Bridal Quote</a>
+  </div>
+</div>
+<div class="note"><b>Price note:</b> Prices are starting prices. Travel distance, hair length/thickness, product requirements, look complexity and event timing may change the final price.</div>
+</div></section>
 
-<footer>
-  <strong>Glamtouch by Muskan</strong><br>
-  Professional On-Site Makeup Service • Hasimara & nearby areas<br>
-  WhatsApp: 7865050476 • Instagram: @glamtouch_by_muskan
-</footer>
+<section id="about"><div class="container feature">
+  <img src="wedding-makeup.png" alt="Glamtouch by Muskan on-site bridal makeup service">
+  <div><div class="eyebrow">Why Glamtouch?</div><h2 style="font-family:'Playfair Display';font-size:40px;margin:8px 0">Professional beauty at your venue.</h2>
+  <p style="color:var(--muted)">No need to travel to a salon for your special day. Glamtouch by Muskan provides on-site beauty services in Hasimara and nearby areas.</p>
+  <div class="list"><div>💍 <b>Wedding ready</b> — bridal & function looks</div><div>🧴 <b>Beauty care</b> — facial, clean up, D-Tan & threading</div><div>💇 <b>Hair care</b> — spa, cut, styling, straightening & keratin</div><div>📍 <b>At your venue</b> — convenient on-site service</div></div></div>
+</div></section>
 
-<script>
-function book(){
- const n=document.getElementById('name').value, d=document.getElementById('date').value,
- s=document.getElementById('service').value, v=document.getElementById('venue').value,
- m=document.getElementById('msg').value;
- const text=`Hello Muskan! I want to book GlamTouch makeup service.%0A%0AName: ${encodeURIComponent(n)}%0AEvent Date: ${encodeURIComponent(d)}%0AService: ${encodeURIComponent(s)}%0AVenue/Area: ${encodeURIComponent(v)}%0AMessage: ${encodeURIComponent(m)}`;
- window.open('https://wa.me/917865050476?text='+text,'_blank');
-}
-</script>
+<section id="gallery"><div class="container">
+<div class="section-head"><div class="eyebrow">Our work</div><h2>Glamtouch Gallery</h2><p>A glimpse of the brand and on-site makeup setup.</p></div>
+<div class="gallery"><img src="wedding-makeup.png" alt="On-site wedding makeup"><img src="muskan.jpg" alt="Muskan"></div>
+</div></section>
 
-<section class="services-extra"><div class="service-card"><h3>Hair Spa</h3></div></section>
+<section id="booking"><div class="container"><div class="booking"><div class="booking-grid">
+  <div><div class="eyebrow">Ready to book?</div><h2>Let’s create your perfect look.</h2><p>Send your service, date and venue on WhatsApp. We’ll check availability and confirm the final price.</p><a class="btn btn-primary" href="https://wa.me/917865050476?text=Hello%20Glamtouch%20by%20Muskan%2C%20I%20want%20to%20book.%0AService%3A%20%0ADate%3A%20%0AVenue%3A%20" target="_blank">Book on WhatsApp</a></div>
+  <div class="contact-list"><div class="contact">📱 <b>WhatsApp</b><br>7865050476</div><div class="contact">📍 <b>Service Area</b><br>Hasimara & nearby areas</div><div class="contact">📸 <b>Instagram</b><br><a href="https://www.instagram.com/glamtouch_by_muskan?stkn=dmJhMGEwNTh4cjQw" target="_blank">@glamtouch_by_muskan</a></div><div class="contact">📕 <b>Price Album</b><br><a href="price-album.pdf" target="_blank">View / Download PDF</a></div></div>
+</div></div></div></section>
+</main>
 
-<section class="services-extra"><div class="service-card"><h3>Hair Straightening</h3></div></section>
-
-<section class="services-extra"><div class="service-card"><h3>Keratin Treatment</h3></div></section>
-
-<section class="services-extra"><div class="service-card"><h3>Hair Cut</h3></div></section>
+<footer><div class="container"><div class="footer-brand">Glamtouch by Muskan</div><div>MAKEUP • BEAUTY • CONFIDENCE</div><p>Beauty Comes to You ♡</p><div>© 2026 Glamtouch by Muskan</div></div></footer>
+<a class="float" href="https://wa.me/917865050476?text=Hello%20Glamtouch%20by%20Muskan%2C%20I%20want%20to%20know%20about%20your%20services." target="_blank">💬 WhatsApp</a>
 </body>
 </html>
